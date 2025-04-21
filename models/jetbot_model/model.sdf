@@ -1,0 +1,445 @@
+<?xml version="1.0" ?>
+<sdf version='1.7'>
+  <model name='jetbot'>
+    <link name='base_footprint'>
+      <inertial>
+        <pose>0.004722 1.7e-05 0.083341 0 -0 0</pose>
+        <mass>0.338101</mass>
+        <inertia>
+          <ixx>0.000690223</ixx>
+          <ixy>-7.58224e-06</ixy>
+          <ixz>-3.12951e-06</ixz>
+          <iyy>0.00124634</iyy>
+          <iyz>-5.34491e-06</iyz>
+          <izz>0.0009536</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/base_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__antenna_link_collision_1'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/antenna_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__bolt1_link_collision_2'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/bolt1_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__bolt2_link_collision_3'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/bolt2_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__camera_mount_link_collision_4'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/realsense/camera_mount_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__camera_link_collision_5'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/realsense/camera_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__caster_back_link_collision_6'>
+        <pose>-0.072 0 0.039684 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/caster_back_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__caster_front_link_collision_7'>
+        <pose>0.072 0 0.037302 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/caster_front_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__imu_link_collision_8'>
+        <pose>-0.00988 -0.000613 0.073111 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/imu_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__left_motor_link_collision_9'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/left_motor_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__nano_link_collision_10'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/nano_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__right_motor_link_collision_11'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/right_motor_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__base_scan_collision_12'>
+        <pose>0.00505 0.0003 0.142186 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/base_scan.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__upper_plate_link_collision_13'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/upper_plate_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/base_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__antenna_link_visual_1'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/antenna_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__bolt1_link_visual_2'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/bolt1_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__bolt2_link_visual_3'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/bolt2_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__camera_mount_link_visual_4'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/realsense/camera_mount_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__camera_link_visual_5'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/realsense/camera_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__caster_back_link_visual_6'>
+        <pose>-0.072 0 0.039684 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/caster_back_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__caster_front_link_visual_7'>
+        <pose>0.072 0 0.037302 -1.5708 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/caster_front_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__imu_link_visual_8'>
+        <pose>-0.00988 -0.000613 0.073111 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/imu_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__left_motor_link_visual_9'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/left_motor_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__nano_link_visual_10'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/nano_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__right_motor_link_visual_11'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/right_motor_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__base_scan_visual_12'>
+        <pose>0.00505 0.0003 0.142186 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/base_scan.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__upper_plate_link_visual_13'>
+        <pose>0 0 0.05 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/other_parts/upper_plate_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wheel_left_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 0.0796 0.035 -1.5708 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>wheel_left_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>0</effort>
+          <velocity>0</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_left_link'>
+      <pose relative_to='wheel_left_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.00084 -0.000117 0.00012 0 -0 0</pose>
+        <mass>0.0422347</mass>
+        <inertia>
+          <ixx>1.85052e-05</ixx>
+          <ixy>-2.00861e-09</ixy>
+          <ixz>1.11452e-08</ixz>
+          <iyy>1.84913e-05</iyy>
+          <iyz>-1.55129e-09</iyz>
+          <izz>3.09445e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='wheel_left_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wheel_left_link_fixed_joint_lump__wheel_left_rim_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_rim.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wheel_left_link_fixed_joint_lump__wheel_left_tire_collision_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_tire.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wheel_left_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wheel_left_link_fixed_joint_lump__wheel_left_rim_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_rim.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wheel_left_link_fixed_joint_lump__wheel_left_tire_visual_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_left_tire.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='wheel_right_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 -0.0796 0.035 -1.5708 0 0</pose>
+      <parent>base_footprint</parent>
+      <child>wheel_right_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>0</effort>
+          <velocity>0</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='wheel_right_link'>
+      <pose relative_to='wheel_right_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>1.7e-05 0.000848 -0.00012 0 -0 0</pose>
+        <mass>0.0422347</mass>
+        <inertia>
+          <ixx>1.8491e-05</ixx>
+          <ixy>2.68892e-10</ixy>
+          <ixz>-2.32871e-10</ixz>
+          <iyy>1.85055e-05</iyy>
+          <iyz>-1.12502e-08</iyz>
+          <izz>3.09445e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='wheel_right_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_link.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wheel_right_link_fixed_joint_lump__wheel_right_rim_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_rim.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='wheel_right_link_fixed_joint_lump__wheel_right_tire_collision_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_tire.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='wheel_right_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_link.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wheel_right_link_fixed_joint_lump__wheel_right_rim_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_rim.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='wheel_right_link_fixed_joint_lump__wheel_right_tire_visual_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jetbot_meshes/wheels/wheel_right_tire.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
