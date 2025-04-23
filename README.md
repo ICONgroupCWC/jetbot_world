@@ -21,7 +21,7 @@ Before using this code, make sure you have the following installed:
    source devel/setup.bash
 
 **Usage**
-1. ROS
+1. **ROS**
 
    Launch the Robot model node:
       ```bash
@@ -42,7 +42,7 @@ Before using this code, make sure you have the following installed:
 
 
 
-3. Unity
+3. **Unity**
 
    To integrate with Unity, use the Unity Technology URDF Importer plugin. Refer to the documentation for installation and usage instructions.[Installation Guide](https://github.com/Unity-Technologies/URDF-Importer).
 
