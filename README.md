@@ -27,11 +27,23 @@ Before using this code, make sure you have the following installed:
       ```bash
       roslaunch jetbot_world multi_jetbot.launch
       ```
-   After running the launch file, you can import the robot model through the RViz view.As shown in the figure 1 below.
+   After running the launch file, you will see a Gazebo simulation environment with two Jetbot robots, along with the RViz visualization displaying the robot models and their sensor data.
+
+   Figures below illustrate:
+
+   The Gazebo world with two Jetbots.
+   
+   The RViz view showing the robot models.
+   ![gazebo](https://github.com/user-attachments/assets/30cc5d41-f64d-4db5-ae41-4a7bfa6f7b86)
+   ![Screenshot from 2025-04-23 13-22-56](https://github.com/user-attachments/assets/fba80a6e-9508-4f77-b011-1b18551b787e)
+
+
+   
 
 
 
-2. Unity
+
+3. Unity
 
    To integrate with Unity, use the Unity Technology URDF Importer plugin. Refer to the documentation for installation and usage instructions.[Installation Guide](https://github.com/Unity-Technologies/URDF-Importer).
 
