@@ -47,3 +47,6 @@ Before using this code, make sure you have the following installed:
    To integrate with Unity, use the Unity Technology URDF Importer plugin. Refer to the documentation for installation and usage instructions.[Installation Guide](https://github.com/Unity-Technologies/URDF-Importer).
 
    ![Screenshot (14)](https://github.com/MadushankaHP/Robot-Model/assets/68281297/ecc70025-fbbe-479b-adcb-51c5a474aa68)
+   
+## Demo in action
+[![Demo: Jetbot Robot model]](https://youtu.be/pvjqGRFbfh8)
