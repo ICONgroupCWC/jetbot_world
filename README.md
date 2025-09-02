@@ -1,13 +1,13 @@
-# Robot-Model
+# JetBot Robot Model
 This repository contains ROS (Robot Operating System), Gazebo, and Unity integration for the Waveshare JetBot ROS AI Kit. The kit includes a URDF model for the robot with  a CSI camera and RealSense depth camera.
 
-**Prerequisites**
+## Prerequisites
 
 Before using this code, make sure you have the following installed:
 
 1. ROS (Robot Operating System) - [Installation Guide](https://wiki.ros.org/Installation).
 
-**Setup**
+## Setup
 
 1. Clone this repository to your ROS workspace:
 
@@ -20,8 +20,8 @@ Before using this code, make sure you have the following installed:
    catkin_make
    source devel/setup.bash
 
-**Usage**
-1. **ROS**
+# Usage
+**ROS Simulation**
 
    Launch the Robot model node:
       ```bash
@@ -32,8 +32,9 @@ Before using this code, make sure you have the following installed:
    Figures below illustrate:
    - The Gazebo world with two Jetbots. 
    - The RViz view showing the robot models.
-     
+   ***Gazebo view:***
    ![gazebo](https://github.com/user-attachments/assets/30cc5d41-f64d-4db5-ae41-4a7bfa6f7b86)
+   ***RViz view:***
    ![Screenshot from 2025-04-23 13-22-56](https://github.com/user-attachments/assets/fba80a6e-9508-4f77-b011-1b18551b787e)
 
 
@@ -41,11 +42,10 @@ Before using this code, make sure you have the following installed:
 
 
 
-
-3. **Unity**
+**Unity Integration**
 
    To integrate with Unity, use the Unity Technology URDF Importer plugin. Refer to the documentation for installation and usage instructions.[Installation Guide](https://github.com/Unity-Technologies/URDF-Importer).
-
+***Unity view:***
    ![Screenshot (14)](https://github.com/MadushankaHP/Robot-Model/assets/68281297/ecc70025-fbbe-479b-adcb-51c5a474aa68)
    
 ## Demo in action
