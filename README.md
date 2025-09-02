@@ -49,4 +49,4 @@ Before using this code, make sure you have the following installed:
    ![Screenshot (14)](https://github.com/MadushankaHP/Robot-Model/assets/68281297/ecc70025-fbbe-479b-adcb-51c5a474aa68)
    
 ## Demo in action
-[![Demo: Jetbot Robot model]](https://youtu.be/pvjqGRFbfh8)
+[![Demo: Jetbot Robot model](https://img.youtube.com/vi/6jZNM8AZ7O0/sddefault.jpg)](https://youtu.be/pvjqGRFbfh8)
