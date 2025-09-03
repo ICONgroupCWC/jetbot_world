@@ -77,4 +77,4 @@ url = {https://github.com/ICONgroupCWC/jetbot_world.git}
 }
 ```
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/ICONgroupCWC/jetbot_world/blob/main/LICENSE).
