@@ -69,7 +69,7 @@ Contributions are welcome!
 If you use this repository in your research or projects, please cite:
 
 ```bibtex
-@software{H_P_Madushanka_and_Sumudu_Samarakoon_and_Mehdi_Bennis_Waveshare_JetBot_ROS,
+@software{Waveshare_JetBot_ROS_AI_KIT_Robot_Model,
 author = {H.P. Madushanka and Sumudu Samarakoon and Mehdi Bennis},
 license = {MIT},
 title = {{Waveshare JetBot ROS AI Kit – URDF Model}},
