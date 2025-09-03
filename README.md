@@ -70,7 +70,7 @@ If you use this repository in your research or projects, please cite:
 
 ```bibtex
 @misc{jetbot_ros_ai_kit,
-  author       = {ICONGroup},
+  author       = {ICONgroupCWC},
   title        = {Waveshare JetBot ROS AI Kit URDF Model},
   year         = {2025},
   publisher    = {GitHub},
