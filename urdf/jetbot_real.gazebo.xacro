@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot name="turtlebot3_burger_sim" xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:arg name="laser_visual" default="false" />
+  <xacro:arg name="laser_visual" default="true" />
   <xacro:arg name="imu_visual"   default="false"/>
 
   <gazebo reference="base_link">
@@ -59,7 +59,7 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <!--base_scan-->
- <!-- <gazebo reference="base_scan">
+  <gazebo reference="base_scan">
     <sensor type="camera" name="camera1">
       <update_rate>30.0</update_rate>
       <camera name="head">
@@ -95,7 +95,7 @@
         <distortionT2>0.0</distortionT2>
       </plugin>
     </sensor>
-  </gazebo> -->
+  </gazebo> 
 
 
   <gazebo reference="wheel_left_link">
@@ -200,7 +200,7 @@
     </plugin>
   </gazebo>
 
-  <!-- <gazebo reference="base_scan">
+  <gazebo reference="base_scan">
     <material>Gazebo/FlatBlack</material>
     <sensor type="ray" name="lds_lfcd_sensor">
       <pose>0 0 0 0 0 0</pose>
@@ -231,9 +231,9 @@
         <frameName>$(arg botname)/base_scan</frameName>
       </plugin>
     </sensor>
-  </gazebo> -->
+  </gazebo>
 
-      <gazebo reference="base_scan">
+      <!-- <gazebo reference="base_scan">
       <material>Gazebo/FlatBlack</material>
       <sensor type="ray" name="velodyne-VLP16">
         <pose>0 0 1 0 0 0</pose>
@@ -274,6 +274,6 @@
           <gaussianNoise>0.008</gaussianNoise>
         </plugin>
       </sensor>
-    </gazebo>
+    </gazebo> -->
 
 </robot>

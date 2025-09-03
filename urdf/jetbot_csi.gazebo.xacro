@@ -2,10 +2,10 @@
 <robot name="turtlebot3_burger_sim" xmlns:xacro="http://ros.org/wiki/xacro">
 
 
-  <xacro:arg name="laser_visual" default="false"/>
+  <xacro:arg name="laser_visual" default="true"/>
   <xacro:arg name="imu_visual"   default="false"/>
   <xacro:property name="M_PI" value="3.14159265359"/>
-  <xacro:property name="use_Rplidar" default="false"/>
+  <xacro:property name="use_Rplidar" default="true"/>
 
 
 
@@ -169,7 +169,7 @@
       </plugin>
     </gazebo>
 
-      <!-- <gazebo reference="base_scan">
+      <gazebo reference="base_scan">
         <material>Gazebo/FlatBlack</material>
         <sensor type="ray" name="lds_lfcd_sensor">
           <pose>0 0 0 0 0 0</pose>
@@ -200,9 +200,9 @@
             <frameName>$(arg botname)/base_scan</frameName>
           </plugin>
         </sensor>
-      </gazebo> -->
+      </gazebo>
 
-    <gazebo reference="base_scan">
+    <!-- <gazebo reference="base_scan">
       <material>Gazebo/FlatBlack</material>
       <sensor type="ray" name="velodyne-VLP16">
         <pose>0 0 1 0 0 0</pose>
@@ -243,7 +243,7 @@
           <gaussianNoise>0.008</gaussianNoise>
         </plugin>
       </sensor>
-    </gazebo>
+    </gazebo> -->
 
  
 </robot>
