@@ -26,7 +26,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/base_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/base_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.223529411764706 1 0.352941176470588 1"/>
@@ -35,7 +35,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/base_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -48,7 +48,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.952941176470588 0.796078431372549 0.486274509803922 1"/>
@@ -57,7 +57,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -77,7 +77,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_rim.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_rim.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.188235294117647 0.231372549019608 0.588235294117647 1"/>
@@ -86,7 +86,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_rim.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_rim.STL"/>
       </geometry>
     </collision>
   </link>
@@ -105,7 +105,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_tire.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_tire.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1"/>
@@ -114,7 +114,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_right_tire.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_right_tire.STL"/>
       </geometry>
     </collision>
   </link>
@@ -133,7 +133,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.952941176470588 0.796078431372549 0.486274509803922 1"/>
@@ -142,7 +142,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -162,7 +162,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_rim.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_rim.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.188235294117647 0.231372549019608 0.588235294117647 1"/>
@@ -171,7 +171,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_rim.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_rim.STL"/>
       </geometry>
     </collision>
   </link>
@@ -190,7 +190,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_tire.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_tire.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1"/>
@@ -199,7 +199,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/wheels/wheel_left_tire.STL"/>
+        <mesh filename="package://jetbot_world/meshes/wheels/wheel_left_tire.STL"/>
       </geometry>
     </collision>
   </link>
@@ -218,7 +218,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/csi/camera_mount_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/csi/camera_mount_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0 0.8 0 1"/>
@@ -227,7 +227,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/csi/camera_mount_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/csi/camera_mount_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -246,7 +246,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/csi/camera_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/csi/camera_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.1 0.1 0.1 1"/>
@@ -255,7 +255,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/csi/camera_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/csi/camera_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -274,7 +274,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/caster_back_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/caster_back_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.627450980392157 0.627450980392157 0.627450980392157 1"/>
@@ -283,7 +283,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/caster_back_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/caster_back_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -302,7 +302,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/caster_front_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/caster_front_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.627450980392157 0.627450980392157 0.627450980392157 1"/>
@@ -311,7 +311,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/caster_front_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/caster_front_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -330,7 +330,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/imu_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/imu_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.5 0.5 0.5 1"/>
@@ -339,7 +339,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/imu_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/imu_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -358,7 +358,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/base_scan.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/base_scan.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.250980392156863 0.250980392156863 0.250980392156863 1"/>
@@ -367,7 +367,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/base_scan.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/base_scan.STL"/>
       </geometry>
     </collision>
   </link>
@@ -386,7 +386,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/left_motor_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/left_motor_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -395,7 +395,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/left_motor_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/left_motor_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -414,7 +414,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/right_motor_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/right_motor_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -423,7 +423,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/right_motor_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/right_motor_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -442,7 +442,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/upper_plate_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/upper_plate_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1"/>
@@ -451,7 +451,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/upper_plate_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/upper_plate_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -470,7 +470,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/antenna_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/antenna_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.0941176470588235 0.109803921568627 0.12156862745098 1"/>
@@ -479,7 +479,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/antenna_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/antenna_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -498,7 +498,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/bolt1_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/bolt1_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.952941176470588 0.796078431372549 0.486274509803922 1"/>
@@ -507,7 +507,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/bolt1_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/bolt1_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -526,7 +526,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/bolt2_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/bolt2_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.0941176470588235 0.109803921568627 0.12156862745098 1"/>
@@ -535,7 +535,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/bolt2_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/bolt2_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -554,7 +554,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/nano_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/nano_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="0.4 0.4 0.4 1"/>
@@ -563,7 +563,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://jetbot_model/meshes/other_parts/nano_link.STL"/>
+        <mesh filename="package://jetbot_world/meshes/other_parts/nano_link.STL"/>
       </geometry>
     </collision>
   </link>
