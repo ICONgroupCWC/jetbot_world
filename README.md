@@ -69,11 +69,15 @@ Contributions are welcome!
 If you use this repository in your research or projects, please cite:
 
 ```bibtex
-@software{Waveshare_JetBot_ROS_AI_KIT_Robot_Model,
-author = {H.P. Madushanka, Sumudu Samarakoon and Mehdi Bennis},
-license = {MIT},
-title = {{Waveshare JetBot ROS AI Kit – URDF Model}},
-url = {https://github.com/ICONgroupCWC/jetbot_world.git}
+@software{madushanka2026jetbot,
+  author       = {H.P.Madushanka and
+                  Sumudu Samarakoon and
+                  Mehdi Bennis},
+  title        = {Waveshare JetBot ROS AI Kit URDF Model},
+  year         = {2026},
+  version      = {1.0.0},
+  publisher    = {GitHub},
+  url          = {https://github.com/ICONgroupCWC/jetbot_world}
 }
 ```
 ## 📜 License
