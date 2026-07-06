@@ -1,34 +1,46 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
-title: Waveshare JetBot ROS AI Kit – URDF Model
-message: >-
-  If you use this repository in your research or projects,
-  please cite:
+
+title: "Waveshare JetBot ROS AI Kit URDF Model"
+
+message: >
+  If you use this software in your research, please cite it using
+  the metadata from this file.
+
 type: software
+
 authors:
-  - given-names: H.P. Madushanka
-    email: Madushanka.HewaPathiranage@oulu.fi
-    orcid: 'https://orcid.org/0009-0008-0530-5731'
-  - given-names: Sumudu Samarakoon
-    email: sumudu.samarakoon@oulu.fi
-    orcid: 'https://orcid.org/0000-0002-2382-1982'
-  - given-names: Mehdi Bennis
-    email: mehdi.bennis@oulu.fi
-    orcid: 'https://orcid.org/0000-0003-0261-0171'
-repository-code: 'https://github.com/ICONgroupCWC/jetbot_world.git'
-abstract: >-
-  This repository provides a URDF/XACRO robot description of
-  the Waveshare JetBot ROS AI Kit, with integration for ROS,
-  Gazebo, and Unity. It includes the robot model with a CSI
-  camera, Intel RealSense depth camera, and support for
-  onboard sensors such as the IMU, Camera and 2D LiDAR.
+  - family-names: "H.P."
+    given-names: "Madushanka"
+    email: "Madushanka.HewaPathiranage@oulu.fi"
+    orcid: "https://orcid.org/0009-0008-0530-5731"
+
+  - family-names: "Samarakoon"
+    given-names: "Sumudu"
+    email: "sumudu.samarakoon@oulu.fi"
+    orcid: "https://orcid.org/0000-0002-2382-1982"
+
+  - family-names: "Bennis"
+    given-names: "Mehdi"
+    email: "mehdi.bennis@oulu.fi"
+    orcid: "https://orcid.org/0000-0003-0261-0171"
+
+repository-code: "https://github.com/ICONgroupCWC/jetbot_world"
+
+abstract: >
+  This repository provides a URDF/XACRO model of the Waveshare
+  JetBot ROS AI Kit for robotic simulation in ROS and Gazebo.
+  It includes a CSI RGB camera, Intel RealSense depth camera,
+  IMU, 2D LiDAR, and other onboard sensors to support realistic
+  robot simulation and autonomous robotics research.
+
 keywords:
-  - Jetbot ros ai kit
-  - URDF
-  - 'Ros '
-  - 'Gazebo '
-  - XACRO
+  - JetBot
   - Waveshare
+  - ROS
+  - Gazebo
+  - URDF
+  - XACRO
+  - Robotics
+  - Simulation
+
 license: MIT
