@@ -69,7 +69,7 @@ Contributions are welcome!
 If you use this repository in your research or projects, please cite:
 
 ```bibtex
-@software{madushanka2026jetbot,
+@misc{madushanka2026jetbot,
   author       = {H.P.Madushanka and
                   Sumudu Samarakoon and
                   Mehdi Bennis},
