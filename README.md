@@ -74,7 +74,7 @@ If you use this repository in your research or projects, please cite:
                   Sumudu Samarakoon and
                   Mehdi Bennis},
   title        = {Waveshare JetBot ROS AI Kit URDF Model},
-  year         = {2026},
+  year         = {2025},
   version      = {1.0.0},
   publisher    = {GitHub},
   url          = {https://github.com/ICONgroupCWC/jetbot_world}
